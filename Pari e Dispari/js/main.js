@@ -35,15 +35,13 @@ console.log("Il computer ha scelto: " + numeroComputer);
 
 // Sommiamo i due numeri
 sommaNumeri = numeroGiocatore + numeroComputer;
-console.log("La somma dei due numeri è di: " + sommaNumeri);
+console.log("La somma dei due numeri è: " + sommaNumeri);
 
 // Funzione per controllare il pari o il dispari
 function checkPariDispari(str) {
   if (str % 2 == 0) {
-    console.log("Il numero è pari");
     var risultato = "PARI";
   } else {
-    console.log("Il numero è dispari");
     var risultato = "DISPARI";
   }
   return risultato;
