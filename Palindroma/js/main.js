@@ -7,6 +7,7 @@ var string = prompt("Inserisci una parola e ti dirò se è palindroma");
 console.log(string);
 
 function checkPalindroma(parola) {
+  parola = parola.toLowerCase();
   let parolaInvertita = parola.split("").reverse().join("");
   if (parola == parolaInvertita) {
     console.log("La parola è palindroma");
