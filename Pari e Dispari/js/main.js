@@ -15,13 +15,7 @@ console.log("Il giocatore ha scelto: " + pariDispari);
 // Chiediamo all'utente di scegliere un numero da 1 a 5
 do {
   var numeroGiocatore = parseInt(prompt("Scegli un numero da 1 a 5"));
-} while (
-  numeroGiocatore != 1 &&
-  numeroGiocatore != 2 &&
-  numeroGiocatore != 3 &&
-  numeroGiocatore != 4 &&
-  numeroGiocatore != 5
-);
+} while (numeroGiocatore < 1 || numeroGiocatore > 5);
 console.log("Il giocatore ha scelto: " + numeroGiocatore);
 
 // Funzione per la generazione di numeri random con un range
