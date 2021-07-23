@@ -47,21 +47,9 @@ function checkPariDispari(str) {
   return risultato;
 }
 
+// Dichiariamo il vincitore
 if (checkPariDispari(sommaNumeri) == pariDispari) {
   console.log("Il giocatore ha vinto");
 } else {
   console.log("Il giocatore ha perso");
 }
-
-// function checkPariDispari(str) {
-//   str = str.toLowerCase();
-//   if (str == "pari" || str == "dispari") {
-//     console.log(str);
-//     return true;
-//   } else {
-//     console.log(str);
-//     return false;
-//   }
-// }
-
-// console.log(checkPariDispari(pariDispari));
